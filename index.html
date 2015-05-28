@@ -1,24 +1,25 @@
----
-layout: default
----
+<!DOCTYPE html>
 
-<div class="home">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    
+    <title>Testing</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-  <h1 class="page-heading">Posts</h1>
+</head>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<body>
+    <h1>Esto eso solo probando</h1>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <h2>Deja ver</h2>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
-<h1>mera q hay huelebicho</h1>
+
+</body>
+
+
+
+</html>
